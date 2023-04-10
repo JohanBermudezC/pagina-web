@@ -1,0 +1,51 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav .title{
+    color: rgb(226, 122, 48);
+    display: flex;
+    justify-content: center;
+    font-size: 30px; 
+}
+nav .enlace a{
+    color: rgb(194, 130, 35);
+    text-decoration: none;
+    margin-left:  45pt;
+    font-size: 22px;  
+}
+div .tabla{
+    margin-left:  50pt;
+}
+#pizza{
+    margin-left: 870px;
+    width: 450px;
+    height: 350px;
+}
+div .v_line{
+    border-left: thick solid rgb(37, 36, 36) ;
+    height: 70%;
+    left: 50%;
+    position: absolute;
+   }
+div .triangulos .trianguloAbajo{
+    width: 0;
+    height: 0;
+    border-top: 110px solid rgb(230, 226, 221);
+    border-right: 45px solid transparent;
+    border-left: 45px solid transparent;
+    position: absolute;
+    left: 46.9%;
+    
+}
+div .triangulos .trianguloArriba{
+    width: 0;
+    height: 0;
+    border-right: 45px solid transparent;
+    border-bottom: 110px solid rgb(230, 226, 221);
+    border-left: 45px solid transparent;
+    position: absolute;
+    left: 46.9%;
+}
