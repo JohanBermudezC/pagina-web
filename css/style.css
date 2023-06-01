@@ -2,9 +2,11 @@
     
     margin: 0;
     padding: 0;
+   background-color: antiquewhite;
 }
 
 nav .title{
+    padding: 1%;
     color: rgb(226, 122, 48);
     display: flex;
     justify-content: center;
@@ -13,39 +15,50 @@ nav .title{
 nav .enlace a{
     color: rgb(194, 130, 35);
     text-decoration: none;
-    margin-left:  45pt;
+    margin-left: 20px;
     font-size: 22px;  
+    text-align: right;
+    
 }
-div .tabla{
-    margin-left:  50pt;
-}
+
 #pizza{
-    margin-left: 1200px;
+    margin-left: 60%;
     width: 450px;
     height: 350px;
+    border-radius: 6%;
 }
 div .v_line{
-    border-left: thick solid rgb(37, 36, 36) ;
+    border-left: thick solid rgb(194, 130, 35) ;
     height: 70%;
     left: 50%;
     position: absolute;
    }
+
+
 div .triangulos .trianguloAbajo{
+    margin-top: 3%;
     width: 0;
     height: 0;
-    border-top: 110px solid rgb(230, 226, 221);
+    border-top: 110px solid rgb(231, 188, 135);
     border-right: 45px solid transparent;
     border-left: 45px solid transparent;
     position: absolute;
     left: 46.9%;
     
+    
 }
 div .triangulos .trianguloArriba{
+    margin-top: 22%;
     width: 0;
     height: 0;
     border-right: 45px solid transparent;
-    border-bottom: 110px solid rgb(230, 226, 221);
+    border-bottom: 110px solid rgb(231, 188, 135);
     border-left: 45px solid transparent;
     position: absolute;
     left: 46.9%;
+}
+div .parrafo p{
+    font-size: larger;
+    font-family: ´roboto´, sans-serif; 
+    
 }
